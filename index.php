@@ -27,4 +27,5 @@ $server = graphql_subscriptions($manager, 3000);
 
 http_server_port($server, graphql_handler($schema), 8000);
 
+$server->set(['worker_num' => 1]);
 $server->start();
