@@ -1,0 +1,19 @@
+{
+  "name": "siler-examples/issue-231",
+  "description": "Sample code for Issue 231",
+  "type": "project",
+  "require": {
+    "leocavalcante/siler": "dev-master",
+    "swoole/ide-helper": "^4.4",
+    "webonyx/graphql-php": "^0.13.8",
+    "textalk/websocket": "^1.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "leocavalcante",
+      "email": "lc@leocavalcante.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}

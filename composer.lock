@@ -1,0 +1,240 @@
+{
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "004356e0a2abdb5e57479b90130de52d",
+  "packages": [
+    {
+      "name": "leocavalcante/siler",
+      "version": "dev-master",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/leocavalcante/siler.git",
+        "reference": "1a0a21954d5945689db35e5228a8822bf74b4cff"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/leocavalcante/siler/zipball/1a0a21954d5945689db35e5228a8822bf74b4cff",
+        "reference": "1a0a21954d5945689db35e5228a8822bf74b4cff",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.2"
+      },
+      "require-dev": {
+        "cboden/ratchet": "^0.4.1",
+        "cocur/slugify": "^3.2",
+        "gabordemooij/redbean": "^5.4",
+        "mongodb/mongodb": "^1.5",
+        "monolog/monolog": "^2.0",
+        "phan/phan": "^2.4",
+        "phpunit/phpunit": "^8.4",
+        "squizlabs/php_codesniffer": "^3.5",
+        "swiftmailer/swiftmailer": "^6.2",
+        "swoole/ide-helper": "^4.4",
+        "textalk/websocket": "^1.2",
+        "twig/twig": "^3.0",
+        "vlucas/phpdotenv": "^3.6",
+        "webonyx/graphql-php": "^0.13",
+        "zendframework/zend-diactoros": "^2.2",
+        "zendframework/zend-httphandlerrunner": "^1.1",
+        "zendframework/zend-stratigility": "^3.2"
+      },
+      "suggest": {
+        "vlucas/phpdotenv": "Storing configuration in the environment is one of the tenets of a twelve-factor app."
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "Siler\\": "src/"
+        },
+        "files": [
+          "src/Container/Container.php",
+          "src/Db/Db.php",
+          "src/Db/Mongo.php",
+          "src/Db/Redis.php",
+          "src/Diactoros/Diactoros.php",
+          "src/Dotenv/Dotenv.php",
+          "src/Encoder/Json.php",
+          "src/File/File.php",
+          "src/Functional/Functional.php",
+          "src/Functional/Monad/Monad.php",
+          "src/GraphQL/GraphQL.php",
+          "src/Http/Http.php",
+          "src/Http/Request.php",
+          "src/Http/Response.php",
+          "src/HttpHandlerRunner/HttpHandlerRunner.php",
+          "src/Mail/SwiftMailer.php",
+          "src/Monolog/Monolog.php",
+          "src/Prelude/Str.php",
+          "src/Prelude/Tuple.php",
+          "src/Ratchet/Ratchet.php",
+          "src/Result/Result.php",
+          "src/Route/Route.php",
+          "src/Siler.php",
+          "src/Stratigility/Stratigility.php",
+          "src/Swoole/Swoole.php",
+          "src/Twig/Twig.php",
+          "src/facades.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "leocavalcante",
+          "email": "lc@leocavalcante.com"
+        }
+      ],
+      "description": "Siler is a set of general purpose high-level abstractions aiming an API for declarative programming in PHP.",
+      "keywords": [
+        "api",
+        "framework",
+        "functional",
+        "graphql",
+        "micro",
+        "router",
+        "swoole"
+      ],
+      "time": "2019-11-26T02:17:40+00:00"
+    },
+    {
+      "name": "swoole/ide-helper",
+      "version": "4.4.12",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/swoole/ide-helper.git",
+        "reference": "915964abd1ff4fe78be3e341ce9008b6d6a7648a"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/swoole/ide-helper/zipball/915964abd1ff4fe78be3e341ce9008b6d6a7648a",
+        "reference": "915964abd1ff4fe78be3e341ce9008b6d6a7648a",
+        "shasum": ""
+      },
+      "require-dev": {
+        "squizlabs/php_codesniffer": "~3.4.0",
+        "symfony/filesystem": "~4.3.0",
+        "zendframework/zend-code": "~3.3.0"
+      },
+      "type": "library",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "Apache-2.0"
+      ],
+      "authors": [
+        {
+          "name": "Team Swoole",
+          "email": "team@swoole.com"
+        }
+      ],
+      "description": "IDE help files for Swoole.",
+      "time": "2019-11-04T17:53:06+00:00"
+    },
+    {
+      "name": "textalk/websocket",
+      "version": "1.2.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/Textalk/websocket-php.git",
+        "reference": "bfa18bb6bf523680c7803f6b04694fbbf2f67bbf"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/bfa18bb6bf523680c7803f6b04694fbbf2f67bbf",
+        "reference": "bfa18bb6bf523680c7803f6b04694fbbf2f67bbf",
+        "shasum": ""
+      },
+      "require-dev": {
+        "cboden/ratchet": "0.3.*",
+        "phpunit/phpunit": "4.1.*",
+        "phpunit/phpunit-selenium": "1.3.3",
+        "satooshi/php-coveralls": "dev-master"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "WebSocket\\": "lib"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Fredrik Liljegren",
+          "email": "fredrik.liljegren@textalk.se"
+        }
+      ],
+      "description": "WebSocket client and server",
+      "time": "2015-10-09T07:32:42+00:00"
+    },
+    {
+      "name": "webonyx/graphql-php",
+      "version": "v0.13.8",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/webonyx/graphql-php.git",
+        "reference": "6829ae58f4c59121df1f86915fb9917a2ec595e8"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/6829ae58f4c59121df1f86915fb9917a2ec595e8",
+        "reference": "6829ae58f4c59121df1f86915fb9917a2ec595e8",
+        "shasum": ""
+      },
+      "require": {
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "php": "^7.1||^8.0"
+      },
+      "require-dev": {
+        "doctrine/coding-standard": "^6.0",
+        "phpbench/phpbench": "^0.14.0",
+        "phpstan/phpstan": "^0.11.4",
+        "phpstan/phpstan-phpunit": "^0.11.0",
+        "phpstan/phpstan-strict-rules": "^0.11.0",
+        "phpunit/phpcov": "^5.0",
+        "phpunit/phpunit": "^7.2",
+        "psr/http-message": "^1.0",
+        "react/promise": "2.*"
+      },
+      "suggest": {
+        "psr/http-message": "To use standard GraphQL server",
+        "react/promise": "To leverage async resolving on React PHP platform"
+      },
+      "type": "library",
+      "autoload": {
+        "psr-4": {
+          "GraphQL\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "description": "A PHP port of GraphQL reference implementation",
+      "homepage": "https://github.com/webonyx/graphql-php",
+      "keywords": [
+        "api",
+        "graphql"
+      ],
+      "time": "2019-08-25T10:32:47+00:00"
+    }
+  ],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": {
+    "leocavalcante/siler": 20
+  },
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": [],
+  "platform-dev": []
+}

@@ -1,0 +1,8 @@
+server:
+  container_name: siler_examples_issue_231
+  image: leocavalcante/dwoole:dev
+  volumes:
+    - ./:/app
+  ports:
+    - 8000:8000
+    - 3000:3000

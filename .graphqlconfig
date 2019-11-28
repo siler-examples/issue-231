@@ -1,0 +1,14 @@
+{
+  "name": "Siler Examples Issue 231",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Local Endpoint": {
+        "url": "http://localhost:8000",
+        "subscription": {
+          "url": "ws://localhost:3000"
+        }
+      }
+    }
+  }
+}
